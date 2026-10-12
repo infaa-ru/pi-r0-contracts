@@ -1,0 +1,1 @@
+{ "name": "pi-r0-contracts", "private": true, "type": "module", "scripts": { "test": "node --test tests/orders.contract.test.ts" } }

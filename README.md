@@ -1,0 +1,1 @@
+Synthetic contracts repository of the R0 sandbox (`infaa-ru/pi-r0-contracts`): shared API contract and enums. No dependencies: the tests run with `node --test` (Node 22.18 or newer strips the types itself).
