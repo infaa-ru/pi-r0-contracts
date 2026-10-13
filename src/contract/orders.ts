@@ -7,6 +7,6 @@ export interface OrderDto {
 
 export type OrderStatus = (typeof ORDER_STATUSES)[number]
 
-export const ORDER_STATUSES = ['new', 'shipped', 'cancelled'] as const
+export const ORDER_STATUSES = ['new', 'shipped', 'cancelled', 'returned'] as const
 
 export const ORDERS_PATH = '/shops/:shopId/orders'
