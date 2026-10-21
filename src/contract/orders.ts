@@ -3,6 +3,7 @@ export interface OrderDto {
   readonly id: string
   readonly status: OrderStatus
   readonly totalCents: number
+  readonly note?: string
 }
 
 export type OrderStatus = (typeof ORDER_STATUSES)[number]
